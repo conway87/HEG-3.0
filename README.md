@@ -35,4 +35,4 @@ HEG - BeefEater: This edition of HEG doesnt look pretty, but it generates a ton 
 
 HEG - PA: System assessment to determine what current logging levels look like. See which EventIds are logging, which ones arent.
 
-HEG - AA: Runs an automated analaysis on the logs generated from HEG. Highlights and annotates the various IOCs HEG generated that should be picked up by SOC.
+HEG - AA: Runs an automated analysis on the logs generated from HEG. Highlights and annotates the various IOCs HEG generated that should be picked up by SOC.
