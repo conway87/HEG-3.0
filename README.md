@@ -31,7 +31,7 @@ Although HEG is not designed as an attack simulation tool (and caution has been 
 
 ## Companion Tools
 
-HEG - BeefEater: This edition of HEG doesnt look pretty, but it generates a ton more events than standard HEG. BeefEater edition is more suited to people in the detection field. If you want ALL the logs - this is the one.
+HEG - BeefEater: This edition of HEG doesnt look pretty, but it generates a ton more events than standard HEG. BeefEater is more suited to people in the detection field. If you want ALL the logs - this is the one.
 
 HEG - PA: System assessment to determine what current logging levels look like. See which EventIds are logging, which ones arent.
 
