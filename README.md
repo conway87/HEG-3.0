@@ -30,8 +30,9 @@ Although HEG is not designed as an attack simulation tool (and caution has been 
 
 ## Companion Tools
 
-**[HEG - BeefEater:](https://github.com/conway87/HEG-Beef-Eater)** This edition of HEG doesnt look pretty, but it generates a ton more events than standard HEG. BeefEater is more suited to people in the detection field. If you want ALL the logs - this is the one.
 
-**[HEG - PA:](https://github.com/conway87/HEG-PA)** System assessment to determine what current logging levels look like. See which EventIds are logging, which ones arent.
+**[HEG - PA:](https://github.com/conway87/HEG-PA)** Will run a pre-assessment on the local system to determine what the logging levels look like. See which EventIds are logging, which ones arent. Run this before running HEG so you know what to expect.
 
 **[HEG - AA:](https://github.com/conway87/HEG-AA)** Runs an automated analysis on the logs generated from HEG. Highlights and annotates the various IOCs HEG generated that should be picked up by SOC.
+
+**[HEG - BeefEater:](https://github.com/conway87/HEG-Beef-Eater)** This edition of HEG doesnt look pretty, but it generates a ton more events than standard HEG. BeefEater is more suited to people in the detection field. If you want ALL the logs - this is the one.
