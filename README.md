@@ -5,7 +5,7 @@ HEG is designed to act as a log generation tool for logging verification, loggin
 
 As an event generator, as opposed to an attack simulator, you may notice HEG execute the same step repeatedly but using a different technique. It may also execute numerous steps that achieve overlapping outcomes, which would be unnecessary if performed by an actual attacker. This is specifically so a defender can see how various tracks to the same outcome might look like.
 
-The generated logs are output to a csv file after completion to allow for easier analysis. To see a sample - **[click here](#)**
+The generated logs are output to a csv file after completion to allow for easier analysis than sifting through Windows Event Viewer. To see a sample - **[click here](#)**
 
 ### Usage
 Although HEG is not designed as an attack simulation tool (and caution has been taken to defang it where possible), it is still recommended to use HEG only on non-critical infrastructure. Careful consideration should be given before deploying HEG on any production systems.
