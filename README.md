@@ -1,5 +1,9 @@
 
+![HEG3](https://github.com/user-attachments/assets/37b6fe9d-87eb-46cf-a91e-892f391cb9ea)
+
+
 ## About
+
 
 HEG is designed to act as a log generation tool for logging verification, logging validation, detection validation etc
 
@@ -30,6 +34,7 @@ Although HEG is not designed as an attack simulation tool (and caution has been 
 
 ## Mitre Navigator
 
+Mapping coming soon!
 
 <br>
 
@@ -45,4 +50,9 @@ Although HEG is not designed as an attack simulation tool (and caution has been 
 <br>
 
 ## Third Party
+
+Tools from other great projects that work well with HEG coming soon!
+
+
+
 
