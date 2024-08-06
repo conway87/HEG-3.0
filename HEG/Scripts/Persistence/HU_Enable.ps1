@@ -1,0 +1,1 @@
+﻿Enable-LocalUser -Name "HEG_User"

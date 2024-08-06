@@ -1,0 +1,1 @@
+dir c:\Users\Public /b /s .key | findstr /e .key

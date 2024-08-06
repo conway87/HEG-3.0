@@ -1,0 +1,1 @@
+﻿Set-LocalUser -Name "HEG_User" -PasswordNeverExpires:$true

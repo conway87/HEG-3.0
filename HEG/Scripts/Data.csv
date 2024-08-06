@@ -1,0 +1,40 @@
+Tactic,TacticDescription,Description,Security,System,Sysmon,Powershell,BITS,Firewall,Script
+TOOLING DOWNLOAD:,Downloading toolset through multiple download channels.,Downloading via BITS,4688,"7040, 7036","1, 3, 7, 11, 22, 29","4103, 4104","3, 59, 60, 4",,.\Scripts\Command_Control\Tooling_Transfer\Tool_Download_BITS.ps1
+TOOLING DOWNLOAD:,Downloading toolset through multiple download channels.,Downloading via Invoke-Webrequest,,,"1, 3, 11, 22, 29","4103, 4104",,,.\Scripts\Command_Control\Tooling_Transfer\Tool_Download_WINVOKE.ps1
+TOOLING DOWNLOAD:,Downloading toolset through multiple download channels.,Downloading via Curl,,,"1, 3, 11, 22, 29","4103, 4104",,,.\Scripts\Command_Control\Tooling_Transfer\Tool_Download_CURL.ps1
+CODE EXECUTION:,Executing code through various channels.,Testing via RunDLL,4688,,"1, 10, 13",,,,.\Scripts\Execution\Command_Scripting\Code_Execution_RunDLL.bat
+CODE EXECUTION:,Executing code through various channels.,Testing via WMI,4688,,"1, 10",,,,.\Scripts\Execution\Command_Scripting\Code_Execution_WMI.bat
+CODE EXECUTION:,Executing code through various channels.,Testing PowerShell encoded commands,4688,,"1, 10, 11, 13, 29","4103, 4104",,,.\Scripts\Execution\Command_Scripting\Code_Execution_EncodedPowerShell.bat
+DEFENSE EVASION:,Evading security controls on the system.,Installing rogue root certificate,"4657, 5059, 5061, 5058",1056,"7, 11, 12, 13","4103, 4104",,,.\Scripts\Defense_Evasion\Subverting_Trust_Control\Certificate_Install.ps1
+DEFENSE EVASION:,Evading security controls on the system.,Creating new exclusions in Windows Firewall,"4688, 4657, 5447, 4946",,"1, 13",,,2097,.\Scripts\Defense_Evasion\Firewall_Rule_Create.bat
+DEFENSE EVASION:,Evading security controls on the system.,Disabling exclusions in Windows Firewall,"4688, 4657, 5447, 4947",,"1, 13",,,2099,.\Scripts\Defense_Evasion\Firewall_Rule_Disable.bat
+DEFENSE EVASION:,Evading security controls on the system.,Deleting exclusions in Windows Firewall,"4688, 4657, 4948",,"1, 12",,,,.\Scripts\Defense_Evasion\Firewall_Rule_Delete.bat
+DEFENSE EVASION:,Evading security controls on the system.,Disabling the Windows Firewall,"4688, 4657, 5447, 4950",,"1, 13",4104,,2003,.\Scripts\Defense_Evasion\Firewall_Disable.ps1
+PERSISTENCE:,Deploying configurations that allows persistant access to system.,Creating new user account via Cmd,"4688, 4728, 4720, 4722, 4738, 4724, 4732",,1,,,,.\Scripts\Persistence\User_Creation\NetUser.bat
+PERSISTENCE:,Deploying configurations that allows persistant access to system.,Creating new user account via PowerShell,"4728, 4720, 4722, 4738, 4724",,,4103,,,.\Scripts\Persistence\User_Creation\New_LocalUser.ps1
+PERSISTENCE:,Deploying configurations that allows persistant access to system.,Create HEG_User,N/A,,N/A,N/A,,,.\Scripts\Persistence\HU_Create.bat
+PERSISTENCE:,Deploying configurations that allows persistant access to system.,Assigning user a non-expirable password,4738,,,,,,.\Scripts\Persistence\HU_PasswordExpirey.ps1
+PERSISTENCE:,Deploying configurations that allows persistant access to system.,Promote user to Administrator & RDP Users groups,4732,,,,,,.\Scripts\Persistence\HU_Groups_Add.ps1
+PERSISTENCE:,Deploying configurations that allows persistant access to system.,Disable a user account,"4725, 4738",,,,,,.\Scripts\Persistence\HU_Disable.ps1
+PRIVILEGE ESCALATION:,Using techniques that can allow escalation of privileges.,Creating new scheduled task,"4688, 4657, 4698",,"1, 10, 11, 12, 13",,,,.\Scripts\Privilege_Escalation\Scheduled_Task_Create.bat
+PRIVILEGE ESCALATION:,Using techniques that can allow escalation of privileges.,Modifying existing scheduled task,"4688, 4657, 4702",,"1, 10, 12, 13",,,,.\Scripts\Privilege_Escalation\Scheduled_Task_Modify.bat
+PRIVILEGE ESCALATION:,Using techniques that can allow escalation of privileges.,Deleting a scheduled task,"4688, 4699",,"1, 12, 26",,,,.\Scripts\Privilege_Escalation\Scheduled_Task_Delete.bat
+PRIVILEGE ESCALATION:,Using techniques that can allow escalation of privileges.,Creating and installing a service,"4688, 4657, 4697",7045,"1, 13",,,,.\Scripts\Privilege_Escalation\Service_Create.bat
+PRIVILEGE ESCALATION:,Using techniques that can allow escalation of privileges.,Modifying existing service,"4688, 4657",,"1, 13",,,,.\Scripts\Privilege_Escalation\Service_Modify.bat
+PRIVILEGE ESCALATION:,Using techniques that can allow escalation of privileges.,Deleting a service,"4688, 4657",,"1, 12, 13",,,,.\Scripts\Privilege_Escalation\Service_Delete.bat
+PRIVILEGE ESCALATION:,Using techniques that can allow escalation of privileges.,Creating new registry key,"4688, 4657",,"1, 10, 12, 13",,,,.\Scripts\Privilege_Escalation\Registry_Create.bat
+PRIVILEGE ESCALATION:,Using techniques that can allow escalation of privileges.,Modifying existing registry key,"4688, 4657",,"1, 10, 13",,,,.\Scripts\Privilege_Escalation\Registry_Modify.bat
+PRIVILEGE ESCALATION:,Using techniques that can allow escalation of privileges.,Deleting a registry key,4688,,"1, 12",,,,.\Scripts\Privilege_Escalation\Registry_Delete.bat
+CREDENTIAL ACCESS:,Attempting a number of techniques to acquire credentials.,Bruteforce on Administrator account,"4688, 4776, 4625, 4740",,1,,,,.\Scripts\Credential_Access\bruteforce_Administrator.bat
+CREDENTIAL ACCESS:,Attempting a number of techniques to acquire credentials.,Bruteforce with timestomp evasion on Guest account,"4688, 4776, 4625, 4740, 4616","1, 24","1, 13","4103, 4104, 4100",,,.\Scripts\Credential_Access\bruteforce_Guest.ps1
+CREDENTIAL ACCESS:,Attempting a number of techniques to acquire credentials.,Searching for .key files,4688,,1,,,,.\Scripts\Credential_Access\Key_Search.bat
+EXFILTRATION:,Sending data offsite via multiple channels.,Sending random data externally via FTP,,,"3, 22","4103, 4104",,,.\Scripts\Exfiltration\FTP.ps1
+EXFILTRATION:,Sending data offsite via multiple channels.,Sending random data externally via HTTP POST,,,"3, 22",4103,,,.\Scripts\Exfiltration\HTTP-Post.ps1
+EXFILTRATION:,Sending data offsite via multiple channels.,Encoding random data via PowerShell,,,"1, 11",4103,,,.\Scripts\Exfiltration\Data_Encode.ps1
+EXFILTRATION:,Sending data offsite via multiple channels.,Sending encoded data externally via DNS requests,,,"1, 22",4104,,,.\Scripts\Exfiltration\DNS.ps1
+LATERAL MOVEMENT:,Initiating tools and techniques that allow movement across the LAN.,Installing and executing WinRM,"4688, 4657, 4697, 5156, 5140, 5145","10148, 7040, 7036","1, 10, 11, 13, 17, 18",,,,.\Scripts\Lateral_Movement\WINRM_Install.bat
+LATERAL MOVEMENT:,Initiating tools and techniques that allow movement across the LAN.,Installing and executing PsExec,"4688, 4657, 5156, 4648, 4776, 4672, 4624, 5140, 5145, 5158, 4697","7045, 7036","1, 3, 10, 11, 13, 17, 18, 29","4103, 4104",,,.\Scripts\Lateral_Movement\Psexec.ps1
+INDICATOR REMOVAL:,Removing or limiting evidence collection ability of the system.,Stopping log files from logging new events,"4688, 4657",,"1, 10, 13","4103, 4104",,,.\Scripts\Defense_Evasion\Indicator_Removal\Disable_Logging.ps1
+INDICATOR REMOVAL:,Removing or limiting evidence collection ability of the system.,Reducing log file capacity,4657,,13,"4103, 4104",,,.\Scripts\Defense_Evasion\Indicator_Removal\Reduce_Log_Size.ps1
+INDICATOR REMOVAL:,Removing or limiting evidence collection ability of the system.,Wiping log files,"4688, 1102",104,"1, 26",4104,,,.\Scripts\Defense_Evasion\Indicator_Removal\Log_Clear.ps1
+INHIBITING SYSTEM RECOVERY:,Reducing ability to recover a system after an attack,Creating and deleting a new shadow copy,4688,,"1, 10, 26","4103, 4104",,,.\Scripts\Impact\Shadows_Deleted.ps1
