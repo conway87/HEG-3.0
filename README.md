@@ -1,5 +1,5 @@
 
-## About -
+## About
 
 HEG is designed to act as a log generation tool for logging verification, logging validation, detection validation etc
 
