@@ -48,9 +48,6 @@ Mapping coming soon!
 
 <br>
 
-## Third Party
-
-Tools from other great projects that work well with HEG coming soon!
 
 
 
