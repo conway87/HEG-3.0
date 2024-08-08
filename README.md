@@ -42,7 +42,7 @@ Mapping coming soon!
 
 **[HEG - PA:](https://github.com/conway87/HEG-PreAssessment)** Will run a pre-assessment on the local system to determine what the logging levels look like. See which EventIDs are logging, which ones arent. Run this before running HEG so you know what to expect.
 
-**[HEG - AA:](https://github.com/conway87/HEG-AutomatedAnalysis)** Runs an automated analysis on the logs generated from HEG. Highlights and annotates the various IOCs HEG generated that should be picked up by SOC.
+**[HEG - AA:](https://github.com/conway87/HEG-AutomatedAnalysis)** Runs an automated analysis on the logs generated from HEG. Highlights and annotates the various IOCs which HEG generated that should be picked up by SOC.
 
 **[HEG - BeefEater:](https://github.com/conway87/HEG-BeefEater)** This edition of HEG doesnt look pretty, but it generates a ton more events than standard HEG. BeefEater is more suited to people in the detection field. If you want ALL the logs - this is the one.
 
