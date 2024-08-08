@@ -40,7 +40,7 @@ Mapping coming soon!
 ## Companion Tools
 
 
-**[HEG - PA:](https://github.com/conway87/HEG-PreAssessment)** Will run a pre-assessment on the local system to determine what the logging levels look like. See which EventIds are logging, which ones arent. Run this before running HEG so you know what to expect.
+**[HEG - PA:](https://github.com/conway87/HEG-PreAssessment)** Will run a pre-assessment on the local system to determine what the logging levels look like. See which EventIDs are logging, which ones arent. Run this before running HEG so you know what to expect.
 
 **[HEG - AA:](https://github.com/conway87/HEG-AutomatedAnalysis)** Runs an automated analysis on the logs generated from HEG. Highlights and annotates the various IOCs HEG generated that should be picked up by SOC.
 
