@@ -49,6 +49,8 @@ Mapping coming soon!
 <br>
 
 
+## Contribution
 
+Contributions are welcome. Especially tests that will generate new events not already covered. The entire HEG project is designed to be community focused. Send PR will review and accept.
 
-
+<br>
