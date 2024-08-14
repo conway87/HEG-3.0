@@ -18,7 +18,7 @@ Although HEG is not designed as an attack simulation tool (and caution has been 
 
 
 ## Getting Started
-1. To get the most out of HEG read the wiki… **[here](https://github.com/conway87/HEG-3.0/wiki/1.-Usage)**
+1. To get the most out of HEG read this **[Medium Post](https://medium.com/@conway87/heg-890e8813c22f)**
 &nbsp;
 
 3. For quick start, with minimal fuss:
