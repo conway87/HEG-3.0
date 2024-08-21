@@ -1,4 +1,6 @@
-﻿# Define FTP server details
+﻿# Default creds supplied on dlptest.com for testing. 
+# dlptest.com could rotate these in future, in which case please check for new ones and update script.
+
 $ftpUrl = "ftp://ftp.dlptest.com/"
 $username = "dlpuser"
 $password = "rNrKYTX9g7z3RgJRmxWuGHbeu"
